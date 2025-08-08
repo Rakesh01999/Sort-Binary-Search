@@ -32,7 +32,7 @@ int main() {
         while (low <= high) {
             ll mid = low + (high - low) / 2;
             if (canEatAll(A, H, mid)) {
-                result = mid;  // try to find smaller K
+                result = mid;  
                 high = mid - 1;
             } else {
                 low = mid + 1;
