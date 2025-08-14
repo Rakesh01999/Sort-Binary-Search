@@ -5,8 +5,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int n;
-    cin >> n; // number of elements
+    int n; cin >> n; // number of elements
     vector<int> arr(n);
     int maxVal = 0;
 
